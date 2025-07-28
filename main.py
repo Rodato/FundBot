@@ -1,12 +1,12 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 from datetime import datetime
 from agents.scraper import scrape_portals
 from agents.classifier import classify_convocatorias
 from agents.summarizer import summarize_relevant
 from agents.notifier import send_to_discord
-from dotenv import load_dotenv
-
-load_dotenv()
 
 if __name__ == "__main__":
     raw = scrape_portals()

@@ -1,7 +1,8 @@
-from langchain_openai import ChatOpenAI
+import os
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.schema import HumanMessage
 
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0, google_api_key=os.getenv("GOOGLE_API_KEY"))
 
 def summarize_relevant(convocatorias):
     resumidos = []
