@@ -9,10 +9,19 @@ logger = logging.getLogger(__name__)
 
 # Colores para diferentes fuentes
 COLORS = {
-    "cdti": 0x1f77b4,      # Azul
-    "red.es": 0xff7f0e,    # Naranja  
-    "accio": 0x2ca02c,     # Verde
-    "default": 0x9467bd    # Púrpura
+    "cdti": 0x1f77b4,                    # Azul - CDTI
+    "mineco": 0x2ca02c,                  # Verde - Ministerio Ciencia
+    "horizonte-europa": 0x0047AB,        # Azul UE - Horizonte Europa
+    "idae": 0xFF6B35,                    # Naranja - IDAE
+    "comunidad-madrid": 0xE31B23,        # Rojo - Madrid
+    "xunta-galicia": 0x005EB8,           # Azul - Galicia
+    "generalitat-catalunya": 0xFCDD09,   # Amarillo - Cataluña
+    "gobierno-vasco": 0x008F39,          # Verde - País Vasco
+    "junta-andalucia": 0x00A651,         # Verde - Andalucía
+    "enisa": 0x662D91,                   # Púrpura - ENISA
+    "neotec": 0x1f77b4,                  # Azul - NEOTEC (CDTI)
+    "caixabank-dualiza": 0x0033A0,       # Azul CaixaBank
+    "default": 0x9467bd                  # Púrpura por defecto
 }
 
 @retry_with_backoff(max_retries=3, base_delay=1.0, exceptions=(requests.RequestException,))

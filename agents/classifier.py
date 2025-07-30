@@ -14,13 +14,29 @@ llm = ChatGoogleGenerativeAI(
 )
 
 COMPANY_PROFILE = """
-Empresa especializada en:
+Empresa especializada en CIENCIA DE DATOS, VISUALIZACIÓN DE DATOS e INTELIGENCIA ARTIFICIAL:
+
+ÁREAS PRINCIPALES:
+- Ciencia de datos y análisis avanzado
+- Visualización de datos y dashboards interactivos
 - Inteligencia Artificial y Machine Learning
-- Visualización de datos y dashboards
-- Desarrollo de software y tecnología
-- Análisis de datos y Business Intelligence
-- Consultoría tecnológica
-- Innovación digital
+- Business Intelligence y analítica empresarial
+- Big Data y procesamiento de datos masivos
+- Modelos predictivos y algoritmos de IA
+
+TECNOLOGÍAS:
+- Python, R, SQL para análisis de datos
+- Frameworks de ML: TensorFlow, PyTorch, Scikit-learn
+- Herramientas de visualización: Tableau, Power BI, D3.js
+- Plataformas cloud: AWS, Azure, Google Cloud
+- Bases de datos: SQL, NoSQL, Data Lakes
+
+SECTORES DE APLICACIÓN:
+- Transformación digital empresarial
+- Automatización con IA
+- Análisis predictivo para empresas
+- Soluciones de Business Intelligence
+- Consultoría en ciencia de datos
 """
 
 @retry_with_backoff(max_retries=2, base_delay=0.5, exceptions=(Exception,))
