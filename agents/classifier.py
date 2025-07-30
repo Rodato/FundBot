@@ -14,7 +14,9 @@ llm = ChatGoogleGenerativeAI(
 )
 
 COMPANY_PROFILE = """
-Empresa especializada en CIENCIA DE DATOS, VISUALIZACIÓN DE DATOS e INTELIGENCIA ARTIFICIAL:
+Empresa COLOMBIANA especializada en CIENCIA DE DATOS, VISUALIZACIÓN DE DATOS e INTELIGENCIA ARTIFICIAL:
+
+UBICACIÓN: COLOMBIA (empresa latinoamericana)
 
 ÁREAS PRINCIPALES:
 - Ciencia de datos y análisis avanzado
@@ -37,6 +39,12 @@ SECTORES DE APLICACIÓN:
 - Análisis predictivo para empresas
 - Soluciones de Business Intelligence
 - Consultoría en ciencia de datos
+
+ELEGIBILIDAD REQUERIDA:
+- Convocatorias abiertas para empresas COLOMBIANAS
+- Programas internacionales que incluyan Latinoamérica
+- Fondos que permitan participación desde Colombia
+- NO convocatorias exclusivas de España o UE sin participación internacional
 """
 
 @retry_with_backoff(max_retries=2, base_delay=0.5, exceptions=(Exception,))

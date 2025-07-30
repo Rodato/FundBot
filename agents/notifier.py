@@ -9,18 +9,29 @@ logger = logging.getLogger(__name__)
 
 # Colores para diferentes fuentes
 COLORS = {
-    "cdti": 0x1f77b4,                    # Azul - CDTI
-    "mineco": 0x2ca02c,                  # Verde - Ministerio Ciencia
+    # Colombia
+    "minciencias-colombia": 0xFCDD09,    # Amarillo - Colombia
+    
+    # Fundaciones Internacionales
+    "fondation-botnar": 0x00A86B,        # Verde - Fondation Botnar
+    
+    # Programas Europeos (abiertos internacionalmente)
     "horizonte-europa": 0x0047AB,        # Azul UE - Horizonte Europa
-    "idae": 0xFF6B35,                    # Naranja - IDAE
-    "comunidad-madrid": 0xE31B23,        # Rojo - Madrid
-    "xunta-galicia": 0x005EB8,           # Azul - Galicia
-    "generalitat-catalunya": 0xFCDD09,   # Amarillo - Cataluña
-    "gobierno-vasco": 0x008F39,          # Verde - País Vasco
-    "junta-andalucia": 0x00A651,         # Verde - Andalucía
+    "eic-accelerator": 0x003399,         # Azul Oscuro - EIC
+    "digital-europe": 0x0073E6,          # Azul Claro - Digital Europe
+    
+    # Organismos Internacionales
+    "inter-american-development-bank": 0x1E90FF,  # Azul BID
+    "world-bank-funding": 0x009FDC,      # Azul Banco Mundial
+    
+    # Tech Companies
+    "google-ai-social-good": 0x4285F4,   # Azul Google
+    "microsoft-ai-for-good": 0x00BCF2,   # Azul Microsoft
+    
+    # Español (para referencia, pero menos prioritario)
+    "cdti": 0x1f77b4,                    # Azul - CDTI
     "enisa": 0x662D91,                   # Púrpura - ENISA
-    "neotec": 0x1f77b4,                  # Azul - NEOTEC (CDTI)
-    "caixabank-dualiza": 0x0033A0,       # Azul CaixaBank
+    
     "default": 0x9467bd                  # Púrpura por defecto
 }
 

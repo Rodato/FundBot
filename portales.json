@@ -1,7 +1,4 @@
 {
-    "cdti": "https://www.cdti.es/es/convocatorias",
-    "enisa": "https://www.enisa.es/es/financiacion",
-    "aei": "https://www.aei.gob.es/convocatorias/buscador-convocatorias",
-    "idae": "https://www.idae.es/ayudas-y-financiacion",
-    "incibe": "https://www.incibe.es/empresas/que-hacemos/ayudas-y-financiacion"
+    "minciencias-colombia": "https://minciencias.gov.co/convocatorias/todas",
+    "fondation-botnar": "https://www.fondationbotnar.org/funding-opportunities/"
 }
