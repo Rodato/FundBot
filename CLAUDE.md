@@ -103,12 +103,19 @@ FundBot is a Python-based automated funding opportunity scraper and notification
 - Comprehensive metrics logging for monitoring and debugging
 
 **Company Profile Focus:**
-The AI classifier uses a detailed company profile for opportunities relevant to:
+The AI classifier is configured for a COLOMBIAN company specializing in:
+- Data Science and advanced analytics
+- Data visualization and interactive dashboards  
 - Artificial Intelligence and Machine Learning
-- Data visualization and dashboards
-- Software development and technology
-- Data analysis and Business Intelligence
-- Technology consulting and digital innovation
+- Business Intelligence and enterprise analytics
+- Big Data and massive data processing
+- Predictive models and AI algorithms
+
+**Geographic Eligibility:**
+- Prioritizes opportunities open to Colombian companies
+- Focuses on international programs including Latin America
+- Filters funding that allows participation from Colombia
+- Excludes Spain/EU-only programs without international participation
 
 **Monitoring and Debugging:**
 - Structured logging with execution metrics
